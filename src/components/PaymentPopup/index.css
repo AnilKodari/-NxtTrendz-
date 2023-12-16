@@ -1,0 +1,43 @@
+/* PaymentPopup.css */
+
+.payment-popup {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 400px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-popup h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.payment-popup label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.payment-popup input {
+  margin-right: 5px;
+}
+
+.payment-popup button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.payment-popup button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.payment-popup button + button {
+  margin-left: 10px;
+}
+
+/* Add more styles as needed */
